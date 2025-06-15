@@ -1703,7 +1703,7 @@ input[type="file"]::file-selector-button:hover {
   }
 
   .sidebar.active {
-    max-height: 584px;
+    max-height: fit-content;
   }
 
   .sidebar-info {
@@ -2378,3 +2378,4 @@ input[type="file"]::file-selector-button:hover {
     transform: rotate(.5turn)
   }
 }
+
