@@ -318,7 +318,7 @@
             </a>
           </li>
         </ul>
-        <div class="social-list visitor-count"></div>
+        <div class="social-list visitor-count">Loading...</div>
       </div>
     </aside>
     <div class="main-content">
@@ -1113,7 +1113,7 @@
           </section>
           <section class="contact-form">
             <h3 class="h3 form-title">Contact Form</h3>
-            <form id="contactForm" class="form" data-form>
+           <form id="contactForm" class="form" data-form onsubmit="return false;">
               <input type="text" name="MAXON" value="TRUE" style="display:none;">
               <div class="input-wrapper">
                 <input type="text" name="Name" class="form-input" placeholder="Full name" required data-form-input>
@@ -1203,6 +1203,8 @@
   <!--JS . JAVA KI SAALI JI -->
   <script src="./assets/js/menu.js"></script>
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/visitor.js"></script>
+  <script src="./assets/js/conatct-form.js"></script>
   <script src="./assets/js/testimonials.js"></script>
   <script src="./assets/js/dynamicContentLoader.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
