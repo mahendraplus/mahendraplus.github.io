@@ -8,5 +8,6 @@
   "/contact": "/?p=contact",
   "/1": "/?p=2",
   "/lab":"/maxlab",
+  "/spu":"/sankalchand-patel-university-spu-viewer",
   "/max": "/?p=/ma"
 }
